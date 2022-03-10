@@ -1,0 +1,1000 @@
+ 1071  ls
+ 1072  cp ../../.vscode/* .vscode/
+ 1073  ls
+ 1074  ldd 1
+ 1075  ls
+ 1076  ls -l l
+ 1077  ls -l 1
+ 1078  rm 1
+ 1079  ls
+ 1080  ./compile.sh 
+ 1081  ls
+ 1082  cd /home/firefly/data/fanyichao/ComputeLibrary
+ 1083  git --version
+ 1084  ls
+ 1085  cd ..
+ 1086  ls
+ 1087  cd -
+ 1088  ls
+ 1089  cat compile.sh 
+ 1090  ls
+ 1091  ./compile.sh 
+ 1092  ls
+ 1093  cd build-aclm/install
+ 1094  ls
+ 1095  pwd
+ 1096  ls
+ 1097  cd ..
+ 1098  ls
+ 1099  cd ..
+ 1100  ls
+ 1101  cd ..
+ 1102  ls
+ 1103  mkdir github
+ 1104  cd github/
+ 1105  ls
+ 1106  git clone ssh://git@gitlab.zhst-dev.com:2022/InferEng/RK-Tengine.git
+ 1107  ssh-keygen --h
+ 1108  ssh-keygen -t rsa -C "pengzhikang@smartvision.cn"
+ 1109  cat /root/.ssh/id_rsa.pub 
+ 1110  ls
+ 1111  ssh-keygen -t rsa -C "zhikangpeng@163.com"
+ 1112  cat /root/.ssh/id_rsa.pub 
+ 1113  ls
+ 1114  git clone ssh://git@gitlab.zhst-dev.com:2022/InferEng/RK-Tengine.git
+ 1115  ls
+ 1116  git clone http://10.0.0.88/InferEng/RK-Tengine
+ 1117  ls
+ 1118  cd RK-Tengine/
+ 1119  ls
+ 1120  cd Tengine-lite/
+ 1121  ls
+ 1122  chmod +x compile.sh 
+ 1123  ls
+ 1124  vim compile.sh 
+ 1125  code .
+ 1126  ls
+ 1127  cp -r ../../../Tengine-tengine-lite-20211215/.vscode ./
+ 1128  ls
+ 1129  ./compile.sh 
+ 1130  ls
+ 1131  ./compile.sh 
+ 1132  ls
+ 1133  ./compile.sh 
+ 1134  ls
+ 1135  rm -rf build-aclm
+ 1136  ls
+ 1137  git add *
+ 1138  git commit -m "修改了aclm后端的run推理，主要是scratch_mem的使用"
+ 1139  git config --global user.email "zhikangpeng@163.com"
+ 1140  git config --global user.name "pengzhikang"
+ 1141  git commit -m "修改了aclm后端的run推理，主要是scratch_mem的使用"
+ 1142  git push origin master
+ 1143  ls
+ 1144  cd ../..
+ 1145  ls
+ 1146  history > cmd.txt
+ 1147  cp cmd.txt RK-Tengine/Tengine-lite/
+ 1148  cat ~/.ssh/id_rsa
+ 1149  cat ~/.ssh/id_rsa.pub 
+ 1150  ls
+ 1151  cd ..
+ 1152  ls
+ 1153  cd rm -rf Tengine-tengine-lite-20211215
+ 1154  rm -rf Tengine-tengine-lite-20211215
+ 1155  ls
+ 1156  l
+ 1157  ls
+ 1158  cd github/
+ 1159  ls
+ 1160  rm cmd.txt 
+ 1161  cd RK-Tengine
+ 1162  ls
+ 1163  cd Tengine-lite/
+ 1164  ls
+ 1165  rm cmd.txt 
+ 1166  ls
+ 1167  cat compile.sh 
+ 1168  ls
+ 1169  python
+ 1170  3*416*416*4/1024
+ 1171  ls
+ 1172  ./compile.sh 
+ 1173  ls
+ 1174  ./compile.sh 
+ 1175  ls
+ 1176  rm build-aclm
+ 1177  rm -rf build-aclm
+ 1178  ls
+ 1179  git add *
+ 1180  git commit -m "在prerun中提前malloc好run时permute所需要的内存空间"
+ 1181  git push origin master 
+ 1182  ls
+ 1183  ./compile.sh 
+ 1184  ls
+ 1185  ./compile.sh 
+ 1186  cd build-aclm/
+ 1187  ls
+ 1188  cd install
+ 1189  ls
+ 1190  cd bin/
+ 1191  ldd tm_mobile
+ 1192  ls
+ 1193  ldd tm_classification
+ 1194  ls
+ 1195  cd ..
+ 1196  ls
+ 1197  ls lib/
+ 1198  ldd lib/libtengine-lite.so 
+ 1199  ls
+ 1200  cd ..
+ 1201  ls
+ 1202  cd ..
+ 1203  ls
+ 1204  ldd build-aclm/install/bin/tm_classification
+ 1205  ls /home/pack/
+ 1206  cp /home/pack/mobilenet.tmfile benchmark/models/
+ 1207  find ./ -name *.jpg
+ 1208  ls
+ 1209  ls /usr/bin/
+ 1210  ldd /usr/bin/gdb
+ 1211  cd /usr/
+ 1212  ls
+ 1213  find ./ -name gdb
+ 1214  ls
+ 1215  apt-get install gdb
+ 1216  ls
+ 1217  cd -
+ 1218  ls
+ 1219  ./compile.sh 
+ 1220  ls
+ 1221  ./compile.sh 
+ 1222  ls
+ 1223  cd build-aclm/
+ 1224  ls
+ 1225  rm -rf *
+ 1226  cmake ..
+ 1227  make -j32
+ 1228  ls
+ 1229  git add source/api/c_api.c 
+ 1230  git commit -m "修复了cpu作为后端设备double free的bug"
+ 1231  git push origin master
+ 1232  ls
+ 1233  ./compile.sh 
+ 1234  ls
+ 1235  l
+ 1236  ls
+ 1237  ./compile.sh 
+ 1238  ls
+ 1239  git add source/device/aclm/aclm_executor.cc 
+ 1240  git commit -m "适应nhwc输入的排布"
+ 1241  git push origin master
+ 1242  ls
+ 1243  ./compile.sh 
+ 1244  ls
+ 1245  cd /usr/lib/
+ 1246  ls
+ 1247  cd aarch64-linux-gnu/
+ 1248  ls
+ 1249  cd ldscripts/
+ 1250  ls
+ 1251  cd ..
+ 1252  l
+ 1253  cd ..
+ 1254  ls
+ 1255  cd ../include/
+ 1256  l
+ 1257  ls
+ 1258  cd ..
+ 1259  ls
+ 1260  cd aarch64-linux-gnu/
+ 1261  ls
+ 1262  cd lib/
+ 1263  ls
+ 1264  cd ..
+ 1265  ls
+ 1266  cd include/
+ 1267  l
+ 1268  ls
+ 1269  cd ..
+ 1270  ls
+ 1271  find / -name libOpenCL.so
+ 1272  ls
+ 1273  cd include/
+ 1274  ls
+ 1275  cd -
+ 1276  ls
+ 1277  cd /usr/
+ 1278  l
+ 1279  cd local/
+ 1280  ls
+ 1281  cd /home/tools/github/RK-Tengine/Tengine-lite/source/device/opencl/
+ 1282  ls
+ 1283  ls cl/
+ 1284  cd ..
+ 1285  ls
+ 1286  cd ..
+ 1287  ls
+ 1288  cd ..
+ 1289  ls
+ 1290  cp -rf /home/pack/opencl 3rdparty/
+ 1291  ls
+ 1292  ./compile.sh 
+ 1293  ls
+ 1294  cd build-aclm/
+ 1295  ls
+ 1296  cd ..
+ 1297  ./compile.sh 
+ 1298  ls
+ 1299  ./compile.sh 
+ 1300  ls
+ 1301  ./compile.sh 
+ 1302  ls
+ 1303  ./compile.sh 
+ 1304  ls
+ 1305  ./compile.sh 
+ 1306  ls
+ 1307  ./compile.sh 
+ 1308  ls
+ 1309  ./compile.sh 
+ 1310  ls
+ 1311  cd ..
+ 1312  ls
+ 1313  cd ..
+ 1314  ls
+ 1315  rm -rf RK-Tengine
+ 1316  ls
+ 1317  git clone http://10.0.0.88/InferEng/RK-Tengine
+ 1318  ls
+ 1319  git clone http://10.0.0.88/InferEng/RK-Tengine
+ 1320  git init
+ 1321  git clone http://10.0.0.88/InferEng/RK-Tengine
+ 1322  git config --list
+ 1323  ls
+ 1324  cd 3rdparty/
+ 1325  ls
+ 1326  cd acl/
+ 1327  ls
+ 1328  chmod 777 ./*
+ 1329  ls
+ 1330  cd ...
+ 1331  cd ../..
+ 1332  ls
+ 1333  cd 3rdparty/
+ 1334  ls
+ 1335  cd acl/
+ 1336  ls
+ 1337  chmod 777 ./**
+ 1338  rm ./*
+ 1339  rm -rf ./*
+ 1340  ls
+ 1341  cd ..
+ 1342  ls
+ 1343  chmod 777 acl
+ 1344  ls
+ 1345  cd ..
+ 1346  ls
+ 1347  ./compile.sh 
+ 1348  ls
+ 1349  ./compile.sh 
+ 1350  ls
+ 1351  l
+ 1352  ls
+ 1353  ./compile.sh 
+ 1354  ls
+ 1355  ./compile.sh 
+ 1356  ls
+ 1357  ./compile.sh 
+ 1358  ls
+ 1359  ./compile.sh 
+ 1360  ls
+ 1361  git add source/device/aclm/aclm_executor.cc 
+ 1362  git commit -m "更改了异步同步的方式"
+ 1363  git push origin master
+ 1364  htop
+ 1365  ls
+ 1366  ./compile.sh 
+ 1367  ls
+ 1368  service ssh start
+ 1369  ls
+ 1370  cd home/
+ 1371  ls
+ 1372  cd tools/
+ 1373  ls
+ 1374  cd github/
+ 1375  ls
+ 1376  git clone 平常都是用ppk文件组合 _netrc文件进行登录的,这样设置之后基本上只需要输入密码，不再需要输入用户名就可以上传更新，要节省不少时间
+ 1377  git clone http://10.0.0.88/InferEng/RK-Tengine
+ 1378  ls
+ 1379  exit
+ 1380  service ssh start
+ 1381  exit
+ 1382  passwd 
+ 1383  service ssh start
+ 1384  ls
+ 1385  exit
+ 1386  ls
+ 1387  ll ./*
+ 1388  git --version
+ 1389  ls
+ 1390  ./compile.sh 
+ 1391  ls
+ 1392  cd ..
+ 1393  ls
+ 1394  cd ..
+ 1395  ls
+ 1396  cd ..
+ 1397  ls
+ 1398  cd ..
+ 1399  ls
+ 1400  cd pack/
+ 1401  ls
+ 1402  cd opencl/
+ 1403  ls
+ 1404  cd ..
+ 1405  ls
+ 1406  cd ..
+ 1407  ls
+ 1408  ls -al
+ 1409  ls .vscode/
+ 1410  vim .vscode/c_cpp_properties.json 
+ 1411  ls
+ 1412  cd tools/
+ 1413  ls
+ 1414  cd ..
+ 1415  ls
+ 1416  cd tools/
+ 1417  ls
+ 1418  cd ..
+ 1419  ls
+ 1420  cd pack/
+ 1421  ls
+ 1422  cd ..
+ 1423  ls
+ 1424  cd tools/
+ 1425  ls
+ 1426  cd Tengine-tengine-lite/
+ 1427  ls
+ 1428  cd ..
+ 1429  ls
+ 1430  cd github/
+ 1431  ls
+ 1432  cd RK-Tengine/
+ 1433  ls
+ 1434  cd Tengine-lite/
+ 1435  ls
+ 1436  rm -rf build-aclm/*
+ 1437  ls
+ 1438  cd ..
+ 1439  ls
+ 1440  cd ..
+ 1441  ls
+ 1442  cd ..
+ 1443  ls
+ 1444  zip --help
+ 1445  zip
+ 1446  apt-get install zip
+ 1447  ls
+ 1448  cd github/
+ 1449  ls
+ 1450  ls RK-Tengine/
+ 1451  cd ..
+ 1452  ls
+ 1453  ll github/
+ 1454  zip -q -r tengine-20220113.zip github/RK-Tengine/Tengine-lite
+ 1455  ls
+ 1456  ll tengine-20220113.zip 
+ 1457  ls
+ 1458  mv tengine-20220113.zip /home/pack/
+ 1459  ls
+ 1460  ls /home/pack/
+ 1461  ls
+ 1462  cd github/
+ 1463  ls
+ 1464  ls /home/pack/
+ 1465  ls
+ 1466  cd RK-Tengine/
+ 1467  ls
+ 1468  cd 
+ 1469  cd -
+ 1470  cd Tengine-lite/
+ 1471  ls
+ 1472  cp -rf /home/pack/opencl source/device/
+ 1473  rm -rf source/device/opencl/
+ 1474  cp /home/.vscode/c_cpp_properties.json /home/tools/github/RK-Tengine/Tengine-lite/.vscode/
+ 1475  ls
+ 1476  cat compile.sh 
+ 1477  ./compile.sh 
+ 1478  ls
+ 1479  cd /home/
+ 1480  ls
+ 1481  cd tools/
+ 1482  ls
+ 1483  cd ..
+ 1484  ls
+ 1485  cd pack/
+ 1486  ls
+ 1487  cd ..
+ 1488  ls
+ 1489  service ssh start
+ 1490  exit
+ 1491  ls
+ 1492  cd ..
+ 1493  ls
+ 1494  cd ..
+ 1495  ls
+ 1496  history 
+ 1497  ls
+ 1498  git --version
+ 1499  ls
+ 1500  cd ..
+ 1501  ls
+ 1502  cd ..
+ 1503  ls
+ 1504  cd tools/
+ 1505  ls
+ 1506  cd github/
+ 1507  ls
+ 1508  find source/ -name "*permute*"
+ 1509  ls
+ 1510  cd source/
+ 1511  ls
+ 1512  find ./ -name cortex-a
+ 1513  find ./ -name *ref.c
+ 1514  ls
+ 1515  cd ..
+ 1516  ls
+ 1517  cd ..
+ 1518  ls
+ 1519  cd ..
+ 1520  ls
+ 1521  mkdir New-Tengine
+ 1522  ls
+ 1523  cd New-Tengine/
+ 1524  ls
+ 1525  cd .
+ 1526  cd ..
+ 1527  chmod 777 New-Tengine/
+ 1528  ls
+ 1529  cd New-Tengine/
+ 1530  ls
+ 1531  code .
+ 1532  ls
+ 1533  mkdir build
+ 1534  cd build/
+ 1535  ls
+ 1536  cmake ..
+ 1537  make -j32
+ 1538  ls
+ 1539  rm -rf ./*
+ 1540  cmake ..
+ 1541  make -j32
+ 1542  ls
+ 1543  rm -rf ./*
+ 1544  cmake ..
+ 1545  ls
+ 1546  ;s
+ 1547  ls
+ 1548  make -j32
+ 1549  ls
+ 1550  make install
+ 1551  ls
+ 1552  cd install
+ 1553  ls
+ 1554  ls lib/
+ 1555  cd ..
+ 1556  ls
+ 1557  cd ..ls
+ 1558  cd ..
+ 1559  ls
+ 1560  cd ..
+ 1561  ls
+ 1562  cd New-Tengine/
+ 1563  ls
+ 1564  cd tests/
+ 1565  ls
+ 1566  cd ..
+ 1567  ls
+ 1568  mkdir ptest
+ 1569  chmod 777 ptest/
+ 1570  ls
+ 1571  find  / -name *opencv*
+ 1572  ls
+ 1573  cd pe
+ 1574  cd ../..
+ 1575  ls
+ 1576  cd github/
+ 1577  ls
+ 1578  git clone https://github.com/opencv/opencv.git
+ 1579  ls
+ 1580  cd opencv/
+ 1581  ls
+ 1582  code .
+ 1583  ls
+ 1584  cd ..
+ 1585  ls
+ 1586  cd New-Tengine/p
+ 1587  cd New-Tengine/ptest/
+ 1588  ls
+ 1589  cp -rf ../build/install/* 3dparty/tengine/
+ 1590  ls
+ 1591  code .
+ 1592  cd ..
+ 1593  ls
+ 1594  cd build/
+ 1595  rm -rf ./*
+ 1596  cmake ..
+ 1597  make -j32
+ 1598  make install
+ 1599  cd ../ptest/
+ 1600  ls
+ 1601  cp -rf ../build/install/* 3dparty/tengine/
+ 1602  ls
+ 1603  ./run-sample.sh 
+ 1604  ls
+ 1605  cd ..
+ 1606  ls
+ 1607  mkdir ptest-old
+ 1608  ls
+ 1609  cd ptest
+ 1610  cd ../ptest-old/
+ 1611  ls
+ 1612  cd ..
+ 1613  chmod 777 ptest-old/
+ 1614  ls
+ 1615  cd ptest-old/
+ 1616  ls
+ 1617  code .
+ 1618  ls
+ 1619  cd ..
+ 1620  ls
+ 1621  cd ..
+ 1622  ls
+ 1623  cd RK-Tengine/
+ 1624  ls
+ 1625  cd Tengine-lite/
+ 1626  ls
+ 1627  cd ..
+ 1628  ls
+ 1629  cd ..
+ 1630  ls
+ 1631  cd New-Tengine/
+ 1632  ls
+ 1633  cd ..
+ 1634  ls
+ 1635  cd RK-Tengine/
+ 1636  ls
+ 1637  cd Tengine-lite/
+ 1638  ls
+ 1639  code .
+ 1640  ls
+ 1641  cd ..
+ 1642  ls
+ 1643  cd ..
+ 1644  ls
+ 1645  cd New-Tengine/
+ 1646  ls
+ 1647  cp -rf ../RK-Tengine/Tengine-lite/.vscode ./
+ 1648  ls
+ 1649  cd ptest
+ 1650  ls
+ 1651  code .
+ 1652  ls
+ 1653  cd ..
+ 1654  ls
+ 1655  cd ..ls
+ 1656  cd ..
+ 1657  ls
+ 1658  cd github/
+ 1659  ls
+ 1660  cd New-Tengine/
+ 1661  ls
+ 1662  ls
+ 1663  cd 3rdparty/
+ 1664  ls
+ 1665  cd ../../ptest
+ 1666  ls
+ 1667  ./run-sample.sh 
+ 1668  ls
+ 1669  ls /usr/lib/
+ 1670  ls
+ 1671  cd ../ptest-old/
+ 1672  ls
+ 1673  chmod +x run-sample.sh 
+ 1674  ls
+ 1675  ./run-sample.sh 
+ 1676  ls
+ 1677  cp -rf ../build/install/* 3rdparty/tengine/
+ 1678  ls
+ 1679  ./run-sample.sh 
+ 1680  ls
+ 1681  cd ..
+ 1682  ls
+ 1683  cd ..
+ 1684  ls
+ 1685  ll ..
+ 1686  ls
+ 1687  mv Tengine-tengine-lite\ \(2\).zip Tengine-lite.zip
+ 1688  ls
+ 1689  unzip Tengine-lite.zip 
+ 1690  ls
+ 1691  cd Tengine-
+ 1692  cd Tengine-tengine-lite/
+ 1693  ls
+ 1694  cp ../New-Tengine/CMakeLists.txt ./
+ 1695  ls
+ 1696  mkdir build
+ 1697  lc
+ 1698  ls
+ 1699  cd build/
+ 1700  ls
+ 1701  cmake ..
+ 1702  make -j32
+ 1703  make install
+ 1704  ls
+ 1705  cd ..
+ 1706  cp -rf ../New-Tengine/ptest ./
+ 1707  ls
+ 1708  cd ptest/
+ 1709  ls
+ 1710  cp -rf ../build/install/* 3dparty/tengine/
+ 1711  ls
+ 1712  ./run-sample.sh 
+ 1713  ls
+ 1714  cd ..
+ 1715  ls
+ 1716  cd p
+ 1717  cd ptest/
+ 1718  ls
+ 1719  ls
+ 1720  ./run-sample.sh 
+ 1721  ls
+ 1722  ls
+ 1723  mkdir models
+ 1724  chmod 777 models/
+ 1725  apt-get install libcv-dev
+ 1726  apt-get install libopencv-dev
+ 1727  apt-get update
+ 1728  apt-get install libopencv-dev --fix-missing
+ 1729  ls
+ 1730  find /usr/lib/ -naem libopencv*
+ 1731  find /usr/lib/ -name libopencv*
+ 1732  cmake --version
+ 1733  ls
+ 1734  mkdir build
+ 1735  ls
+ 1736  chmod +x run-sample.sh 
+ 1737  ls
+ 1738  ./run-sample.sh 
+ 1739  ls
+ 1740  cd ..
+ 1741  ls
+ 1742  cd ptest
+ 1743  ls
+ 1744  vim src/inference.cpp 
+ 1745  ls
+ 1746  ./run-sample.sh 
+ 1747  ls
+ 1748  vim src/inference.cpp 
+ 1749  ls
+ 1750  cd ../
+ 1751  ls
+ 1752  cd ..
+ 1753  ls
+ 1754  cd Tengine-tengine-lite/
+ 1755  ls
+ 1756  cd ptest/
+ 1757  ls
+ 1758  ./run-sample.sh 
+ 1759  ls
+ 1760  cd ..
+ 1761  ls
+ 1762  chmod 777 source/operator/prototype/*
+ 1763  chmod 777 source/device/cpu/op/permute/permute_ref.c 
+ 1764  ls
+ 1765  cd p
+ 1766  cd ptest/
+ 1767  ls
+ 1768  cd ..
+ 1769  ls
+ 1770  cd build/
+ 1771  rm -rf ./*
+ 1772  cmake ..
+ 1773  make -j32
+ 1774  make install
+ 1775  ls
+ 1776  cd ..
+ 1777  ls
+ 1778  cd ptest/
+ 1779  ls
+ 1780  cp -rf ../build/install/* 3dparty/tengine/
+ 1781  ls
+ 1782  ./run-sample.sh 
+ 1783  export TG_DEBUG_REF=1 && ./run-sample.sh 
+ 1784  ls
+ 1785  code .
+ 1786  chmod 777 .
+ 1787  ls
+ 1788  ll .
+ 1789  ls
+ 1790  ./run-sample.sh 
+ 1791  ls
+ 1792  cd ..
+ 1793  ls
+ 1794  cd ..
+ 1795  ls
+ 1796  cd New-Tengine/
+ 1797  ls
+ 1798  cd ptest
+ 1799  ls
+ 1800  cp -rf ../../Tengine-tengine-lite/ptest/align_bin ./
+ 1801  ls
+ 1802  ./run-sample.sh 
+ 1803  ls
+ 1804  ls bu*
+ 1805  ls
+ 1806  chmod +x bulid.sh 
+ 1807  ./bulid.sh 
+ 1808  ls llv*
+ 1809  mkdir llvm-build
+ 1810  ls
+ 1811  ./bulid.sh 
+ 1812  ls
+ 1813  cd llvm-install/
+ 1814  ls
+ 1815  cd ..
+ 1816  ls
+ 1817  cd llvm-build/
+ 1818  ls
+ 1819  cd ..
+ 1820  ls
+ 1821  ls llvm-install/
+ 1822  cd llvm-install/
+ 1823  ls
+ 1824  cd bin/
+ 1825  ls
+ 1826  ldd clang
+ 1827  ls
+ 1828  cd ..
+ 1829  ls
+ 1830  ls include/
+ 1831  ls
+ 1832  cd ..
+ 1833  ls
+ 1834  cd ..
+ 1835  ls
+ 1836  cat ~/.bash
+ 1837  cat ~/.bashrc 
+ 1838  vim ~/.bashrc 
+ 1839  cat ~/.bashrc
+ 1840  ls
+ 1841  cd ..
+ 1842  ls
+ 1843  vim ~/.bashrc
+ 1844  vim /etc/bash.bashrc 
+ 1845  vim ~/.bashrc
+ 1846  ls
+ 1847  llvm-config
+ 1848  ls
+ 1849  llvm-config 
+ 1850  clang --version
+ 1851  ls
+ 1852  cd ..
+ 1853  ls
+ 1854  cd ..
+ 1855  ls
+ 1856  cd Halide-Build/
+ 1857  ls
+ 1858  git clone https://github.com/halide/Halide.git
+ 1859  ls
+ 1860  cd ..
+ 1861  ls
+ 1862  chmod 777 Halide-Build/
+ 1863  ls
+ 1864  mv Halide-main.zip Halide-Build/
+ 1865  ls
+ 1866  cd Halide-Build/
+ 1867  ls
+ 1868  unzip Halide-main.zip 
+ 1869  ls
+ 1870  cd Halide-main
+ 1871  ls
+ 1872  echo "$LLVM_ROOT"
+ 1873  ls /home/tools/AutoKernel-main/Halide-Build/llvm-project-llvmorg-13.0.0/llvm-install/lib/cmake/llvm/
+ 1874  ls
+ 1875  cat run-clang-tidy.sh 
+ 1876  ls
+ 1877  vim build.sh
+ 1878  ls
+ 1879  mkdir build
+ 1880  ls
+ 1881  cd build
+ 1882  ls
+ 1883  cd ..
+ 1884  ls
+ 1885  chmod +x build.sh 
+ 1886  ls
+ 1887  vim build.sh 
+ 1888  ls
+ 1889  ./build.sh 
+ 1890  vim build.sh 
+ 1891  ./build.sh 
+ 1892  ls
+ 1893  vim build.sh 
+ 1894  ls
+ 1895  ./build.sh 
+ 1896  l
+ 1897  cat build.sh 
+ 1898  ls build
+ 1899  ls
+ 1900  code .
+ 1901  make install
+ 1902  make install -j32
+ 1903  ls
+ 1904  ls /usr/local/share/
+ 1905  ls /usr/local/share/halide/
+ 1906  ls /usr/local/share/halide/tools/
+ 1907  ls /usr/local/include
+ 1908  ls
+ 1909  cd test/
+ 1910  ls
+ 1911  cd ..
+ 1912  ls
+ 1913  cd bin/
+ 1914  ls
+ 1915  cd ..
+ 1916  ls
+ 1917  cd tutorial/
+ 1918  ls
+ 1919  cat lesson_
+ 1920  cat lesson_15_generators_usage.sh 
+ 1921  ls
+ 1922  ./lesson_15_generators_usage.sh 
+ 1923  ls
+ 1924  ar --h
+ 1925  ar --version
+ 1926  ls
+ 1927  cmake
+ 1928  cmake .
+ 1929  ls /usr/local/share/halide/tools/
+ 1930  ls /usr/local/share/halide/
+ 1931  ls /usr/local/share/halide/tutorial/
+ 1932  ls
+ 1933  cd ..
+ 1934  ls
+ 1935  cd ..
+ 1936  ls
+ 1937  cd ..
+ 1938  ls
+ 1939  mkdir learn-halide
+ 1940  ls
+ 1941  cd learn-halide/
+ 1942  ls
+ 1943  mkdir 01-basics
+ 1944  ls
+ 1945  cd 01-basics/
+ 1946  ls
+ 1947  cp ../../Halide-Build/Halide-main/tutorial/lesson_01_basics.cpp .
+ 1948  ls
+ 1949  mkdir .vscode
+ 1950  chmod 777 .vscode/
+ 1951  ls
+ 1952  code .
+ 1953  lsls
+ 1954  ls
+ 1955  mkdir src
+ 1956  ls
+ 1957  mkdir include
+ 1958  ls
+ 1959  mv lesson_01_basics.cpp src/
+ 1960  ls
+ 1961  chmod +x build.sh 
+ 1962  ./build.sh 
+ 1963  find / -name libhalide.so*
+ 1964  ls
+ 1965  ./build.sh 
+ 1966  ls
+ 1967  ./build.sh 
+ 1968  ls
+ 1969  cd src/
+ 1970  ls
+ 1971  cd ..
+ 1972  ls
+ 1973  cd ..
+ 1974  ls
+ 1975  cd .
+ 1976  cp -rf 01-basics/* 02-input_image
+ 1977  mkdir 02-input_image
+ 1978  ls
+ 1979  cp -rf 01-basics/* 02-input_image
+ 1980  ls
+ 1981  la 02-input_image/
+ 1982  cp -rf 01-basics/.vscode 02-input_image/
+ 1983  ls
+ 1984  cd 02-input_image/
+ 1985  ls
+ 1986  la
+ 1987  code .
+ 1988  ls
+ 1989  rm src/lesson_01_basics.cpp 
+ 1990  ls
+ 1991  cp ../../Halide-Build/Halide-main/tutorial/lesson_02_input_image.cpp src/
+ 1992  ls
+ 1993  cd ..
+ 1994  ls
+ 1995  mv 01-basics tutorial
+ 1996  ls
+ 1997  cd tutorial/
+ 1998  ls
+ 1999  code .
+ 2000  cd /home/tools/AutoKernel-main/Halide-Build/Halide-main/tutorial
+ 2001  ls
+ 2002  find / -name halide_image_io.h
+ 2003  ls /usr/local/share/halide/tools
+ 2004  ls /home/tools/AutoKernel-main/learn-halide/tutorial/src
+ 2005  ls
+ 2006  cp ./*.cpp /home/tools/AutoKernel-main/learn-halide/tutorial/src
+ 2007  ls
+ 2008  cd /home/tools/AutoKernel-main/learn-halide/tutorial/
+ 2009  ls
+ 2010  cd src/
+ 2011  ls
+ 2012  cd .
+ 2013  cd ..
+ 2014  ls
+ 2015  cp -rf /home/tools/AutoKernel-main/Halide-Build/Halide-main/tutorial/images ./
+ 2016  ls
+ 2017  ls /usr/local/share/
+ 2018  ls /usr/local/share/halide/
+ 2019  ls /usr/local/share/halide/tools/
+ 2020  ls
+ 2021  ./build.sh 
+ 2022  ls
+ 2023  ls /home/
+ 2024  ls
+ 2025  ls /usr/local/
+ 2026  ls /usr/local/share/
+ 2027  ls /usr/local/share/halide/
+ 2028  ls /usr/local/share/halide/tools/
+ 2029  ls /usr/local/share/halide/
+ 2030  ls /usr/local/share/halide/tutorial/
+ 2031  ls /usr/local/include/
+ 2032  ls /usr/local/lib/
+ 2033  find / -name HalideConfig.cmake
+ 2034  find / -name FindHalide.cmake
+ 2035  ls
+ 2036  ./build.sh 
+ 2037  ls
+ 2038  cd ..
+ 2039  ls
+ 2040  cd ..ls
+ 2041  cd ..
+ 2042  ls
+ 2043  cd Halide-Build/
+ 2044  ls
+ 2045  cd Halide-main
+ 2046  ls
+ 2047  cd /home/tools/AutoKernel-main/learn-halide/tutorial/src
+ 2048  cd ..
+ 2049  ls
+ 2050  ./build.sh 
+ 2051  ls
+ 2052  ./build.sh 
+ 2053  l
+ 2054  ls
+ 2055  cd build
+ 2056  ls
+ 2057  cd release/
+ 2058  ls
+ 2059  ldd test 
+ 2060  cd ..
+ 2061  ls
+ 2062  cd ..
+ 2063  ls
+ 2064  ./build.sh 
+ 2065  ls
+ 2066  ./build.sh 
+ 2067  ls
+ 2068  ./build.sh 
+ 2069  ls
+ 2070  history > cmd.txt
