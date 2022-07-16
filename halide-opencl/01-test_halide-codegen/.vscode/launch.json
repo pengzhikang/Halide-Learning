@@ -1,0 +1,32 @@
+
+{
+    // 使用 IntelliSense 了解相关属性。 
+    // 悬停以查看现有属性的描述。
+    // 欲了解更多信息，请访问: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "name": "(gdb) Launch",
+            "type": "cppdbg",
+            "request": "launch",
+            "program": "${workspaceFolder}/build/release/test",                 //这个就是可执行程序
+            "args": [],
+            "miDebuggerPath": "/usr/bin/gdb",
+            "stopAtEntry": false,
+            //"cwd": "${workspaceFolder}",
+            //"cwd": "${workspaceFolder}/build/release",
+            "cwd": ".",
+            "environment": [],
+            "externalConsole": false,
+            "MIMode": "gdb",
+            "setupCommands": [
+                {
+                    "description": "Enable pretty-printing for gdb",
+                    "text": "-enable-pretty-printing",
+                    "ignoreFailures": true
+                }
+            ],
+            "preLaunchTask": "tm_quant_tool"                          //这里要和tasks.json下的label对应，以便于调用tasks.json文件进行编译
+        }
+    ]
+}

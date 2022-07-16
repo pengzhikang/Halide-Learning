@@ -1,0 +1,18 @@
+
+	{
+	    "configurations": [
+	        {
+	            "name": "Windows",
+	            "includePath": [
+	                "${workspaceFolder}/include",
+					"${workspaceFolder}/3rdparty/halide/include",
+					"${workspaceFolder}/3rdparty/halide/share/tools"
+
+	            ],
+	            "defines": [],
+	            "cStandard": "c11",
+	            "cppStandard": "c++11"
+	        }
+	    ],
+	    "version": 4
+}

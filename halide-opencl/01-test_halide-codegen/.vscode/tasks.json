@@ -1,0 +1,44 @@
+
+{
+    "version": "2.0.0",
+    "options": {
+        "cwd":"${workspaceFolder}/build"                //这个路径是我们创建的用于外部编译的路径
+    },
+    "tasks": [
+         {
+             "label": "clean",
+             "type": "shell",
+             "command": "make clean"
+         },
+        {
+            "type":"shell",
+            "label": "cmake",
+            "command":"cmake", 
+            "args": [
+                "-DCMAKE_BUILD_TYPE=debug",            //debug模式进行调试
+                "-DMAINCPP_FILE=8.execve.c",
+                ".."
+            ]
+        },
+        {
+            "label": "make",
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "command":"make", 
+            "args": [  
+                "-j32"                     //多线程编译 
+            ]
+        },
+        {
+            "label": "tm_quant_tool",           //这里对应launch.json中的preLaunchTask
+            "dependsOrder": "sequence",
+            "dependsOn":[
+                "clean",
+         "cmake",
+                "make"                             
+            ] 
+        }
+    ]
+}

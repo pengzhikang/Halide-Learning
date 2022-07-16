@@ -1,0 +1,8 @@
+Running pipeline on CPU:
+Running pipeline on GPU:
+Target: x86-64-linux-avx-avx2-avx512-avx512_skylake-f16c-fma-opencl-sse41
+Testing GPU correctness:
+Testing performance on CPU:
+4.6495 milliseconds
+Testing performance on GPU:
+3.7742 milliseconds
